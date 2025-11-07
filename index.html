@@ -1094,810 +1094,812 @@
         }
     </style>
 </head>
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="header-content">
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>EDUCODE ACADEMY</span>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#programs">Programs</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+        <div class="mobile-nav" id="mobileNav">
+            <div class="mobile-nav-header">
                 <div class="logo">
                     <i class="fas fa-laptop-code"></i>
-                    <span>EDUCODE ACADEMY</span>
+                    <span>EDUCODE</span>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#programs">Programs</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
-                <button class="mobile-menu-btn" id="mobileMenuBtn">
-                    <i class="fas fa-bars"></i>
+                <button class="mobile-nav-close" id="mobileNavClose">
+                    <i class="fas fa-times"></i>
                 </button>
             </div>
+            <ul>
+                <li><a href="#home" class="mobile-link">Home</a></li>
+                <li><a href="#courses" class="mobile-link">Courses</a></li>
+                <li><a href="#programs" class="mobile-link">Programs</a></li>
+                <li><a href="#contact" class="mobile-link">Contact</a></li>
+            </ul>
         </div>
-    </header>
 
-    <!-- Mobile Navigation -->
-    <div class="mobile-overlay" id="mobileOverlay"></div>
-    <div class="mobile-nav" id="mobileNav">
-        <div class="mobile-nav-header">
-            <div class="logo">
-                <i class="fas fa-laptop-code"></i>
-                <span>EDUCODE</span>
-            </div>
-            <button class="mobile-nav-close" id="mobileNavClose">
-                <i class="fas fa-times"></i>
-            </button>
-        </div>
-        <ul>
-            <li><a href="#home" class="mobile-link">Home</a></li>
-            <li><a href="#courses" class="mobile-link">Courses</a></li>
-            <li><a href="#programs" class="mobile-link">Programs</a></li>
-            <li><a href="#contact" class="mobile-link">Contact</a></li>
-        </ul>
-    </div>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <h1>From ABCs to APIs – We Teach It All</h1>
-                <p>Master the art of programming with our comprehensive courses designed for all skill levels. Start your coding journey today and unlock your potential!</p>
-                <div class="hero-buttons">
-                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
-                    <a href="#contact" class="btn btn-outline">Contact Us</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats-section">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <div class="stat-number">500+</div>
-                    <div class="stat-label">Students Trained</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">15+</div>
-                    <div class="stat-label">Courses Offered</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">98%</div>
-                    <div class="stat-label">Satisfaction Rate</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">5</div>
-                    <div class="stat-label">Expert Instructors</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Courses Section -->
-    <section id="courses">
-        <div class="container">
-            <h2 class="section-title">Our Course Fee Structure</h2>
-            <p class="section-subtitle">
-                Affordable pricing for quality education. Choose from our wide range of programming courses designed to take you from beginner to expert.
-            </p>
-            
-            <div class="courses-grid">
-                <div class="course-card">
-                    <div class="course-header">
-                        <h3>C Programming</h3>
-                        <div class="course-duration">1 Month</div>
-                        <div class="course-price">₹2,500</div>
-                    </div>
-                    <div class="course-content">
-                        <ul class="course-features">
-                            <li><i class="fas fa-check"></i> <span>Fundamentals of Programming</span></li>
-                            <li><i class="fas fa-check"></i> <span>Hands-on Coding Exercises</span></li>
-                            <li><i class="fas fa-check"></i> <span>Certificate of Completion</span></li>
-                            <li><i class="fas fa-check"></i> <span>Problem Solving Techniques</span></li>
-                        </ul>
-                        <button class="enroll-btn" data-course="C Programming" data-price="₹2,500">Enroll Now</button>
-                    </div>
-                </div>
-                
-                <div class="course-card">
-                    <div class="course-header">
-                        <h3>C++ Programming</h3>
-                        <div class="course-duration">1.5 Months</div>
-                        <div class="course-price">₹2,100</div>
-                    </div>
-                    <div class="course-content">
-                        <ul class="course-features">
-                            <li><i class="fas fa-check"></i> <span>Object-Oriented Programming</span></li>
-                            <li><i class="fas fa-check"></i> <span>Advanced C++ Concepts</span></li>
-                            <li><i class="fas fa-check"></i> <span>Practical Projects</span></li>
-                            <li><i class="fas fa-check"></i> <span>Memory Management</span></li>
-                        </ul>
-                        <button class="enroll-btn" data-course="C++ Programming" data-price="₹2,100">Enroll Now</button>
-                    </div>
-                </div>
-                
-                <div class="course-card">
-                    <div class="course-header">
-                        <h3>Web Development</h3>
-                        <div class="course-duration">2 Months</div>
-                        <div class="course-price">₹4,200</div>
-                    </div>
-                    <div class="course-content">
-                        <ul class="course-features">
-                            <li><i class="fas fa-check"></i> <span>HTML, CSS, JavaScript</span></li>
-                            <li><i class="fas fa-check"></i> <span>Responsive Web Design</span></li>
-                            <li><i class="fas fa-check"></i> <span>Build Real Websites</span></li>
-                            <li><i class="fas fa-check"></i> <span>Deployment & Hosting</span></li>
-                        </ul>
-                        <button class="enroll-btn" data-course="Web Development" data-price="₹4,200">Enroll Now</button>
-                    </div>
-                </div>
-                
-                <div class="course-card">
-                    <div class="course-header">
-                        <h3>Frontend Development</h3>
-                        <div class="course-duration">3 Months</div>
-                        <div class="course-price">₹7,000</div>
-                    </div>
-                    <div class="course-content">
-                        <ul class="course-features">
-                            <li><i class="fas fa-check"></i> <span>HTML, CSS, JavaScript, React</span></li>
-                            <li><i class="fas fa-check"></i> <span>Modern UI/UX Principles</span></li>
-                            <li><i class="fas fa-check"></i> <span>Portfolio Projects</span></li>
-                            <li><i class="fas fa-check"></i> <span>State Management</span></li>
-                        </ul>
-                        <button class="enroll-btn" data-course="Frontend Development" data-price="₹7,000">Enroll Now</button>
-                    </div>
-                </div>
-                
-                <div class="course-card highlight-card">
-                    <div class="course-header">
-                        <h3>MERN + AI Full Stack</h3>
-                        <div class="course-duration">5 Months</div>
-                        <div class="course-price">₹14,000</div>
-                    </div>
-                    <div class="course-content">
-                        <ul class="course-features">
-                            <li><i class="fas fa-check"></i> <span>MongoDB, Express, React, Node.js</span></li>
-                            <li><i class="fas fa-check"></i> <span>AI Integration & Machine Learning</span></li>
-                            <li><i class="fas fa-check"></i> <span>Full-Stack Projects</span></li>
-                            <li><i class="fas fa-check"></i> <span>Job Placement Assistance</span></li>
-                            <li><i class="fas fa-check"></i> <span>Capstone Project</span></li>
-                        </ul>
-                        <button class="enroll-btn" data-course="MERN + AI Full Stack" data-price="₹14,000">Enroll Now</button>
-                    </div>
-                </div>
-                
-                <div class="course-card">
-                    <div class="course-header">
-                        <h3>Python Programming</h3>
-                        <div class="course-duration">2 Months</div>
-                        <div class="course-price">₹4,200</div>
-                    </div>
-                    <div class="course-content">
-                        <ul class="course-features">
-                            <li><i class="fas fa-check"></i> <span>Python Fundamentals</span></li>
-                            <li><i class="fas fa-check"></i> <span>Data Structures & Algorithms</span></li>
-                            <li><i class="fas fa-check"></i> <span>Real-world Applications</span></li>
-                            <li><i class="fas fa-check"></i> <span>Libraries & Frameworks</span></li>
-                        </ul>
-                        <button class="enroll-btn" data-course="Python Programming" data-price="₹4,200">Enroll Now</button>
-                    </div>
-                </div>
-                
-                <div class="course-card">
-                    <div class="course-header">
-                        <h3>SQL Database</h3>
-                        <div class="course-duration">1 Month</div>
-                        <div class="course-price">₹2,000</div>
-                    </div>
-                    <div class="course-content">
-                        <ul class="course-features">
-                            <li><i class="fas fa-check"></i> <span>Database Design Principles</span></li>
-                            <li><i class="fas fa-check"></i> <span>Advanced Querying</span></li>
-                            <li><i class="fas fa-check"></i> <span>Real Database Projects</span></li>
-                            <li><i class="fas fa-check"></i> <span>Performance Optimization</span></li>
-                        </ul>
-                        <button class="enroll-btn" data-course="SQL Database" data-price="₹2,000">Enroll Now</button>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>From ABCs to APIs – We Teach It All</h1>
+                    <p>Master the art of programming with our comprehensive courses designed for all skill levels. Start your coding journey today and unlock your potential!</p>
+                    <div class="hero-buttons">
+                        <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                        <a href="#contact" class="btn btn-outline">Contact Us</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Programs Section -->
-    <section class="programs-section" id="programs">
-        <div class="container">
-            <h2 class="section-title">Our Programs</h2>
-            <p class="section-subtitle">
-                We offer comprehensive learning paths for both technology and academic subjects, taught by expert instructors.
-            </p>
-            
-            <div class="programs-tabs">
-                <button class="tab-btn active" data-tab="tech">Tech Programs</button>
-                <button class="tab-btn" data-tab="academic">Academic Classes</button>
-            </div>
-            
-            <div class="tab-content active" id="tech-tab">
-                <div class="instructor-card">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Vanshika Pal" class="instructor-img">
-                    <div class="instructor-info">
-                        <h3>Vanshika Pal</h3>
-                        <div class="instructor-role">Tech Program Instructor</div>
-                        <p>Vanshika is an experienced software developer with expertise in multiple programming languages and frameworks. She specializes in making complex technical concepts easy to understand for beginners.</p>
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Students Trained</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Courses Offered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Satisfaction Rate</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Expert Instructors</div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <div class="container">
+                <h2 class="section-title">Our Course Fee Structure</h2>
+                <p class="section-subtitle">
+                    Affordable pricing for quality education. Choose from our wide range of programming courses designed to take you from beginner to expert.
+                </p>
                 
                 <div class="courses-grid">
                     <div class="course-card">
                         <div class="course-header">
-                            <h3>C / C++</h3>
+                            <h3>C Programming</h3>
+                            <div class="course-duration">1 Month</div>
+                            <div class="course-price">₹2,500</div>
                         </div>
                         <div class="course-content">
                             <ul class="course-features">
                                 <li><i class="fas fa-check"></i> <span>Fundamentals of Programming</span></li>
+                                <li><i class="fas fa-check"></i> <span>Hands-on Coding Exercises</span></li>
+                                <li><i class="fas fa-check"></i> <span>Certificate of Completion</span></li>
+                                <li><i class="fas fa-check"></i> <span>Problem Solving Techniques</span></li>
+                            </ul>
+                            <button class="enroll-btn" data-course="C Programming" data-price="₹2,500">Enroll Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card">
+                        <div class="course-header">
+                            <h3>C++ Programming</h3>
+                            <div class="course-duration">1.5 Months</div>
+                            <div class="course-price">₹2,100</div>
+                        </div>
+                        <div class="course-content">
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span>Object-Oriented Programming</span></li>
+                                <li><i class="fas fa-check"></i> <span>Advanced C++ Concepts</span></li>
+                                <li><i class="fas fa-check"></i> <span>Practical Projects</span></li>
                                 <li><i class="fas fa-check"></i> <span>Memory Management</span></li>
-                                <li><i class="fas fa-check"></i> <span>Object-Oriented Concepts</span></li>
-                                <li><i class="fas fa-check"></i> <span>Real-world Projects</span></li>
                             </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="course-card">
-                        <div class="course-header">
-                            <h3>Python</h3>
-                        </div>
-                        <div class="course-content">
-                            <ul class="course-features">
-                                <li><i class="fas fa-check"></i> <span>Python Syntax & Semantics</span></li>
-                                <li><i class="fas fa-check"></i> <span>Data Structures</span></li>
-                                <li><i class="fas fa-check"></i> <span>Web Development with Django</span></li>
-                                <li><i class="fas fa-check"></i> <span>Data Analysis</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="course-card">
-                        <div class="course-header">
-                            <h3>JavaScript</h3>
-                        </div>
-                        <div class="course-content">
-                            <ul class="course-features">
-                                <li><i class="fas fa-check"></i> <span>Core JavaScript Concepts</span></li>
-                                <li><i class="fas fa-check"></i> <span>DOM Manipulation</span></li>
-                                <li><i class="fas fa-check"></i> <span>Async Programming</span></li>
-                                <li><i class="fas fa-check"></i> <span>Modern ES6+ Features</span></li>
-                            </ul>
+                            <button class="enroll-btn" data-course="C++ Programming" data-price="₹2,100">Enroll Now</button>
                         </div>
                     </div>
                     
                     <div class="course-card">
                         <div class="course-header">
                             <h3>Web Development</h3>
+                            <div class="course-duration">2 Months</div>
+                            <div class="course-price">₹4,200</div>
                         </div>
                         <div class="course-content">
                             <ul class="course-features">
-                                <li><i class="fas fa-check"></i> <span>Frontend & Backend Development</span></li>
-                                <li><i class="fas fa-check"></i> <span>Responsive Design</span></li>
-                                <li><i class="fas fa-check"></i> <span>Database Integration</span></li>
-                                <li><i class="fas fa-check"></i> <span>Deployment Strategies</span></li>
+                                <li><i class="fas fa-check"></i> <span>HTML, CSS, JavaScript</span></li>
+                                <li><i class="fas fa-check"></i> <span>Responsive Web Design</span></li>
+                                <li><i class="fas fa-check"></i> <span>Build Real Websites</span></li>
+                                <li><i class="fas fa-check"></i> <span>Deployment & Hosting</span></li>
                             </ul>
+                            <button class="enroll-btn" data-course="Web Development" data-price="₹4,200">Enroll Now</button>
                         </div>
                     </div>
                     
                     <div class="course-card">
                         <div class="course-header">
-                            <h3>MS Office</h3>
+                            <h3>Frontend Development</h3>
+                            <div class="course-duration">3 Months</div>
+                            <div class="course-price">₹7,000</div>
                         </div>
                         <div class="course-content">
                             <ul class="course-features">
-                                <li><i class="fas fa-check"></i> <span>Word, Excel, PowerPoint</span></li>
-                                <li><i class="fas fa-check"></i> <span>Advanced Formulas & Functions</span></li>
-                                <li><i class="fas fa-check"></i> <span>Data Analysis & Visualization</span></li>
-                                <li><i class="fas fa-check"></i> <span>Professional Document Creation</span></li>
+                                <li><i class="fas fa-check"></i> <span>HTML, CSS, JavaScript, React</span></li>
+                                <li><i class="fas fa-check"></i> <span>Modern UI/UX Principles</span></li>
+                                <li><i class="fas fa-check"></i> <span>Portfolio Projects</span></li>
+                                <li><i class="fas fa-check"></i> <span>State Management</span></li>
                             </ul>
+                            <button class="enroll-btn" data-course="Frontend Development" data-price="₹7,000">Enroll Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card highlight-card">
+                        <div class="course-header">
+                            <h3>MERN + AI Full Stack</h3>
+                            <div class="course-duration">5 Months</div>
+                            <div class="course-price">₹14,000</div>
+                        </div>
+                        <div class="course-content">
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span>MongoDB, Express, React, Node.js</span></li>
+                                <li><i class="fas fa-check"></i> <span>AI Integration & Machine Learning</span></li>
+                                <li><i class="fas fa-check"></i> <span>Full-Stack Projects</span></li>
+                                <li><i class="fas fa-check"></i> <span>Job Placement Assistance</span></li>
+                                <li><i class="fas fa-check"></i> <span>Capstone Project</span></li>
+                            </ul>
+                            <button class="enroll-btn" data-course="MERN + AI Full Stack" data-price="₹14,000">Enroll Now</button>
                         </div>
                     </div>
                     
                     <div class="course-card">
                         <div class="course-header">
-                            <h3>Mini Projects</h3>
+                            <h3>Python Programming</h3>
+                            <div class="course-duration">2 Months</div>
+                            <div class="course-price">₹4,200</div>
                         </div>
                         <div class="course-content">
                             <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span>Python Fundamentals</span></li>
+                                <li><i class="fas fa-check"></i> <span>Data Structures & Algorithms</span></li>
                                 <li><i class="fas fa-check"></i> <span>Real-world Applications</span></li>
-                                <li><i class="fas fa-check"></i> <span>Portfolio Development</span></li>
-                                <li><i class="fas fa-check"></i> <span>Problem-solving Skills</span></li>
-                                <li><i class="fas fa-check"></i> <span>Team Collaboration</span></li>
+                                <li><i class="fas fa-check"></i> <span>Libraries & Frameworks</span></li>
                             </ul>
+                            <button class="enroll-btn" data-course="Python Programming" data-price="₹4,200">Enroll Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card">
+                        <div class="course-header">
+                            <h3>SQL Database</h3>
+                            <div class="course-duration">1 Month</div>
+                            <div class="course-price">₹2,000</div>
+                        </div>
+                        <div class="course-content">
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span>Database Design Principles</span></li>
+                                <li><i class="fas fa-check"></i> <span>Advanced Querying</span></li>
+                                <li><i class="fas fa-check"></i> <span>Real Database Projects</span></li>
+                                <li><i class="fas fa-check"></i> <span>Performance Optimization</span></li>
+                            </ul>
+                            <button class="enroll-btn" data-course="SQL Database" data-price="₹2,000">Enroll Now</button>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <div class="tab-content" id="academic-tab">
-                <div class="instructor-card">
-                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Pallavi Pal" class="instructor-img">
-                    <div class="instructor-info">
-                        <h3>Pallavi Pal</h3>
-                        <div class="instructor-role">Academic Program Instructor</div>
-                        <p>Pallavi is an experienced educator with a passion for teaching. She specializes in making academic concepts engaging and understandable through real-life examples and interactive learning methods.</p>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="programs-section" id="programs">
+            <div class="container">
+                <h2 class="section-title">Our Programs</h2>
+                <p class="section-subtitle">
+                    We offer comprehensive learning paths for both technology and academic subjects, taught by expert instructors.
+                </p>
+                
+                <div class="programs-tabs">
+                    <button class="tab-btn active" data-tab="tech">Tech Programs</button>
+                    <button class="tab-btn" data-tab="academic">Academic Classes</button>
+                </div>
+                
+                <div class="tab-content active" id="tech-tab">
+                    <div class="instructor-card">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Vanshika Pal" class="instructor-img">
+                        <div class="instructor-info">
+                            <h3>Vanshika Pal</h3>
+                            <div class="instructor-role">Tech Program Instructor</div>
+                            <p>Vanshika is an experienced software developer with expertise in multiple programming languages and frameworks. She specializes in making complex technical concepts easy to understand for beginners.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>C / C++</h3>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Fundamentals of Programming</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Memory Management</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Object-Oriented Concepts</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Real-world Projects</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>Python</h3>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Python Syntax & Semantics</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Data Structures</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Web Development with Django</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Data Analysis</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Core JavaScript Concepts</span></li>
+                                    <li><i class="fas fa-check"></i> <span>DOM Manipulation</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Async Programming</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Modern ES6+ Features</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>Web Development</h3>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Frontend & Backend Development</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Responsive Design</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Database Integration</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Deployment Strategies</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>MS Office</h3>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Word, Excel, PowerPoint</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Advanced Formulas & Functions</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Data Analysis & Visualization</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Professional Document Creation</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>Mini Projects</h3>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Real-world Applications</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Portfolio Development</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Problem-solving Skills</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Team Collaboration</span></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 
-                <div class="courses-grid">
-                    <div class="course-card">
-                        <div class="course-header">
-                            <h3>Classes 1-8</h3>
-                            <div class="course-duration">All Subjects</div>
-                        </div>
-                        <div class="course-content">
-                            <ul class="course-features">
-                                <li><i class="fas fa-check"></i> <span>CBSE Board Curriculum</span></li>
-                                <li><i class="fas fa-check"></i> <span>Concept Clarity with Real-Life Examples</span></li>
-                                <li><i class="fas fa-check"></i> <span>Personalized Mentorship</span></li>
-                                <li><i class="fas fa-check"></i> <span>Doubt Support Sessions</span></li>
-                                <li><i class="fas fa-check"></i> <span>Smart Learning with Digital Tools</span></li>
-                            </ul>
+                <div class="tab-content" id="academic-tab">
+                    <div class="instructor-card">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Pallavi Pal" class="instructor-img">
+                        <div class="instructor-info">
+                            <h3>Pallavi Pal</h3>
+                            <div class="instructor-role">Academic Program Instructor</div>
+                            <p>Pallavi is an experienced educator with a passion for teaching. She specializes in making academic concepts engaging and understandable through real-life examples and interactive learning methods.</p>
                         </div>
                     </div>
                     
-                    <div class="course-card">
-                        <div class="course-header">
-                            <h3>Classes 9-10</h3>
-                            <div class="course-duration">Mathematics & Science</div>
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>Classes 1-8</h3>
+                                <div class="course-duration">All Subjects</div>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>CBSE Board Curriculum</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Concept Clarity with Real-Life Examples</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Personalized Mentorship</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Doubt Support Sessions</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Smart Learning with Digital Tools</span></li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="course-content">
-                            <ul class="course-features">
-                                <li><i class="fas fa-check"></i> <span>Comprehensive Syllabus Coverage</span></li>
-                                <li><i class="fas fa-check"></i> <span>Practical Application of Concepts</span></li>
-                                <li><i class="fas fa-check"></i> <span>Regular Assessments</span></li>
-                                <li><i class="fas fa-check"></i> <span>Exam Preparation Strategies</span></li>
-                                <li><i class="fas fa-check"></i> <span>Interactive Learning Methods</span></li>
-                            </ul>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>Classes 9-10</h3>
+                                <div class="course-duration">Mathematics & Science</div>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Comprehensive Syllabus Coverage</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Practical Application of Concepts</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Regular Assessments</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Exam Preparation Strategies</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Interactive Learning Methods</span></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="course-card">
-                        <div class="course-header">
-                            <h3>Classes 11-12</h3>
-                            <div class="course-duration">Science Stream</div>
-                        </div>
-                        <div class="course-content">
-                            <ul class="course-features">
-                                <li><i class="fas fa-check"></i> <span>Physics, Chemistry, Mathematics</span></li>
-                                <li><i class="fas fa-check"></i> <span>Computer Science</span></li>
-                                <li><i class="fas fa-check"></i> <span>Competitive Exam Preparation</span></li>
-                                <li><i class="fas fa-check"></i> <span>Practical Insights</span></li>
-                                <li><i class="fas fa-check"></i> <span>Career Guidance</span></li>
-                            </ul>
+                        
+                        <div class="course-card">
+                            <div class="course-header">
+                                <h3>Classes 11-12</h3>
+                                <div class="course-duration">Science Stream</div>
+                            </div>
+                            <div class="course-content">
+                                <ul class="course-features">
+                                    <li><i class="fas fa-check"></i> <span>Physics, Chemistry, Mathematics</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Computer Science</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Competitive Exam Preparation</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Practical Insights</span></li>
+                                    <li><i class="fas fa-check"></i> <span>Career Guidance</span></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
-        <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <p class="section-subtitle">
-                Have questions about our courses or need guidance on which one is right for you? Our team is here to help.
-            </p>
-            
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-user"></i>
-                        <span>Shri Badku Ram Pal Ji</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>Bachan Singh Colony</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>+91 93683 12729 | +91 93899 71209</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>info@educodeacademy.com</span>
-                    </div>
-                    
-                    <h3 style="margin-top: 2rem;">Follow Us</h3>
-                    <div class="social-icons">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">
+                    Have questions about our courses or need guidance on which one is right for you? Our team is here to help.
+                </p>
                 
-                <div class="contact-form">
-                    <h3>Send us a Message</h3>
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="contactName">Full Name</label>
-                            <input type="text" id="contactName" name="name" class="form-control" required>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-user"></i>
+                            <span>Shri Badku Ram Pal Ji</span>
                         </div>
-                        <div class="form-group">
-                            <label for="contactEmail">Email Address</label>
-                            <input type="email" id="contactEmail" name="email" class="form-control" required>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bachan Singh Colony</span>
                         </div>
-                        <div class="form-group">
-                            <label for="contactPhone">Phone Number</label>
-                            <input type="tel" id="contactPhone" name="phone" class="form-control" required>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 93683 12729 | +91 93899 71209</span>
                         </div>
-                        <div class="form-group">
-                            <label for="contactSubject">Subject</label>
-                            <input type="text" id="contactSubject" name="subject" class="form-control" required>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@educodeacademy.com</span>
                         </div>
-                        <div class="form-group">
-                            <label for="contactMessage">Message</label>
-                            <textarea id="contactMessage" name="message" class="form-control" required></textarea>
+                        
+                        <h3 style="margin-top: 2rem;">Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                         </div>
-                        <button type="submit" class="btn btn-gradient" style="width: 100%;">
-                            <span class="btn-text">Send Message</span>
-                        </button>
-                    </form>
-                    <div class="form-status" id="contactStatus"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>EduCode Academy</h3>
-                    <p>From ABCs to APIs – We Teach It All. Providing quality coding and academic education for all skill levels.</p>
-                    <div class="social-icons">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send us a Message</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="contactName">Full Name</label>
+                                <input type="text" id="contactName" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address</label>
+                                <input type="email" id="contactEmail" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="phone" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject</label>
+                                <input type="text" id="contactSubject" name="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Message</label>
+                                <textarea id="contactMessage" name="message" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-gradient" style="width: 100%;">
+                                <span class="btn-text">Send Message</span>
+                            </button>
+                        </form>
+                        <div class="form-status" id="contactStatus"></div>
                     </div>
                 </div>
-                <div class="footer-column">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#courses">Courses</a></li>
-                        <li><a href="#programs">Programs</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Popular Courses</h3>
-                    <ul class="footer-links">
-                        <li><a href="#courses">MERN + AI Full Stack</a></li>
-                        <li><a href="#courses">Frontend Development</a></li>
-                        <li><a href="#courses">Python Programming</a></li>
-                        <li><a href="#courses">Web Development</a></li>
-                        <li><a href="#courses">C/C++ Programming</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> Bachan Singh Colony</li>
-                        <li><i class="fas fa-phone"></i> +91 93683 12729</li>
-                        <li><i class="fas fa-phone"></i> +91 93899 71209</li>
-                        <li><i class="fas fa-envelope"></i> info@educodeacademy.com</li>
-                    </ul>
-                </div>
             </div>
-            <div class="copyright">
-                <p>&copy; 2023 EduCode Academy. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> for education</p>
-            </div>
-        </div>
-    </footer>
+        </section>
 
-    <!-- Enrollment Modal -->
-    <div class="modal" id="enrollmentModal">
-        <div class="modal-content">
-            <button class="close-modal" id="closeModal" aria-label="Close modal">
-                <i class="fas fa-times"></i>
-            </button>
-            <h2>Enroll in <span id="courseName"></span></h2>
-            <p>Course Fee: <span id="coursePrice"></span></p>
-            
-            <form id="enrollmentForm">
-                <div class="form-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" class="form-control" required>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>EduCode Academy</h3>
+                        <p>From ABCs to APIs – We Teach It All. Providing quality coding and academic education for all skill levels.</p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#programs">Programs</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Popular Courses</h3>
+                        <ul class="footer-links">
+                            <li><a href="#courses">MERN + AI Full Stack</a></li>
+                            <li><a href="#courses">Frontend Development</a></li>
+                            <li><a href="#courses">Python Programming</a></li>
+                            <li><a href="#courses">Web Development</a></li>
+                            <li><a href="#courses">C/C++ Programming</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Info</h3>
+                        <ul class="footer-links">
+                            <li><i class="fas fa-map-marker-alt"></i> Bachan Singh Colony</li>
+                            <li><i class="fas fa-phone"></i> +91 93683 12729</li>
+                            <li><i class="fas fa-phone"></i> +91 93899 71209</li>
+                            <li><i class="fas fa-envelope"></i> info@educodeacademy.com</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" class="form-control" required>
+                <div class="copyright">
+                    <p>&copy; 2023 EduCode Academy. All rights reserved. | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> for education</p>
                 </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" class="form-control" required>
-                </div>
-                <div class="form-group">
-                    <label for="education">Education Level</label>
-                    <select id="education" name="education" class="form-control" required>
-                        <option value="">Select your education</option>
-                        <option value="School">School</option>
-                        <option value="High School">High School</option>
-                        <option value="Undergraduate">Undergraduate</option>
-                        <option value="Graduate">Graduate</option>
-                        <option value="Other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="experience">Programming Experience</label>
-                    <select id="experience" name="experience" class="form-control" required>
-                        <option value="">Select your experience level</option>
-                        <option value="Beginner">Beginner</option>
-                        <option value="Intermediate">Intermediate</option>
-                        <option value="Advanced">Advanced</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Additional Message (Optional)</label>
-                    <textarea id="message" name="message" class="form-control" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-gradient" style="width: 100%;">
-                    <span class="btn-text">Submit Enrollment</span>
+            </div>
+        </footer>
+
+        <!-- Enrollment Modal -->
+        <div class="modal" id="enrollmentModal">
+            <div class="modal-content">
+                <button class="close-modal" id="closeModal" aria-label="Close modal">
+                    <i class="fas fa-times"></i>
                 </button>
-            </form>
-            <div class="form-status" id="enrollmentStatus"></div>
+                <h2>Enroll in <span id="courseName"></span></h2>
+                <p>Course Fee: <span id="coursePrice"></span></p>
+                
+                <form id="enrollmentForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="education">Education Level</label>
+                        <select id="education" name="education" class="form-control" required>
+                            <option value="">Select your education</option>
+                            <option value="School">School</option>
+                            <option value="High School">High School</option>
+                            <option value="Undergraduate">Undergraduate</option>
+                            <option value="Graduate">Graduate</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="experience">Programming Experience</label>
+                        <select id="experience" name="experience" class="form-control" required>
+                            <option value="">Select your experience level</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Message (Optional)</label>
+                        <textarea id="message" name="message" class="form-control" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gradient" style="width: 100%;">
+                        <span class="btn-text">Submit Enrollment</span>
+                    </button>
+                </form>
+                <div class="form-status" id="enrollmentStatus"></div>
+            </div>
         </div>
-    </div>
 
-    <script>
-        // Your Google Apps Script URL
-        const scriptURL = "https://script.google.com/macros/s/AKfycbwTwU55CJ0pCbagM8Lod5fNr-T9AGCgBTRVDnMl59Ta9mz6owTHZkDgAYiMrIGATruR/exec";
+        <script>
+            // Your Google Apps Script URL
+            const scriptURL = "https://script.google.com/macros/s/AKfycbwTwU55CJ0pCbagM8Lod5fNr-T9AGCgBTRVDnMl59Ta9mz6owTHZkDgAYiMrIGATruR/exec";
 
-        // Mobile Menu Toggle
-        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-        const mobileNav = document.getElementById('mobileNav');
-        const mobileOverlay = document.getElementById('mobileOverlay');
-        const mobileNavClose = document.getElementById('mobileNavClose');
-        const mobileLinks = document.querySelectorAll('.mobile-link');
+            // Variables to store current course info
+            let currentCourseName = '';
+            let currentCoursePrice = '';
 
-        function openMobileMenu() {
-            mobileNav.classList.add('active');
-            mobileOverlay.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mobileNav = document.getElementById('mobileNav');
+            const mobileOverlay = document.getElementById('mobileOverlay');
+            const mobileNavClose = document.getElementById('mobileNavClose');
+            const mobileLinks = document.querySelectorAll('.mobile-link');
 
-        function closeMobileMenu() {
-            mobileNav.classList.remove('active');
-            mobileOverlay.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-
-        mobileMenuBtn.addEventListener('click', openMobileMenu);
-        mobileNavClose.addEventListener('click', closeMobileMenu);
-        mobileOverlay.addEventListener('click', closeMobileMenu);
-        
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', closeMobileMenu);
-        });
-
-        // Header scroll effect
-        let lastScroll = 0;
-        const header = document.querySelector('header');
-        
-        window.addEventListener('scroll', () => {
-            const currentScroll = window.pageYOffset;
-            
-            if (currentScroll > 100) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-            
-            lastScroll = currentScroll;
-        });
-
-        // Tab Functionality
-        const tabBtns = document.querySelectorAll('.tab-btn');
-        const tabContents = document.querySelectorAll('.tab-content');
-        
-        tabBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                tabBtns.forEach(b => b.classList.remove('active'));
-                tabContents.forEach(c => c.classList.remove('active'));
-                
-                btn.classList.add('active');
-                
-                const tabId = btn.getAttribute('data-tab') + '-tab';
-                document.getElementById(tabId).classList.add('active');
-            });
-        });
-
-        // Enrollment Modal
-        const enrollmentModal = document.getElementById('enrollmentModal');
-        const closeModalBtn = document.getElementById('closeModal');
-        const courseNameElement = document.getElementById('courseName');
-        const coursePriceElement = document.getElementById('coursePrice');
-        const enrollmentForm = document.getElementById('enrollmentForm');
-        const enrollmentStatus = document.getElementById('enrollmentStatus');
-
-        // Open modal when enroll button is clicked
-        document.querySelectorAll('.enroll-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                const courseName = this.getAttribute('data-course');
-                const coursePrice = this.getAttribute('data-price');
-                
-                courseNameElement.textContent = courseName;
-                coursePriceElement.textContent = coursePrice;
-                
-                enrollmentModal.classList.add('active');
+            function openMobileMenu() {
+                mobileNav.classList.add('active');
+                mobileOverlay.classList.add('active');
                 document.body.style.overflow = 'hidden';
-            });
-        });
+            }
 
-        // Close modal
-        closeModalBtn.addEventListener('click', function() {
-            enrollmentModal.classList.remove('active');
-            document.body.style.overflow = '';
-        });
-
-        // Close modal when clicking outside
-        enrollmentModal.addEventListener('click', function(event) {
-            if (event.target === enrollmentModal) {
-                enrollmentModal.classList.remove('active');
+            function closeMobileMenu() {
+                mobileNav.classList.remove('active');
+                mobileOverlay.classList.remove('active');
                 document.body.style.overflow = '';
             }
-        });
 
-        // Form submission handler using your method
-        function handleFormSubmission(form, statusElement, formType, courseName = '', coursePrice = '') {
-            return function(e) {
-                e.preventDefault();
+            mobileMenuBtn.addEventListener('click', openMobileMenu);
+            mobileNavClose.addEventListener('click', closeMobileMenu);
+            mobileOverlay.addEventListener('click', closeMobileMenu);
+            
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+
+            // Header scroll effect
+            let lastScroll = 0;
+            const header = document.querySelector('header');
+            
+            window.addEventListener('scroll', () => {
+                const currentScroll = window.pageYOffset;
                 
-                const submitBtn = form.querySelector('button[type="submit"]');
-                const btnText = submitBtn.querySelector('.btn-text');
-                const originalText = btnText.textContent;
-                
-                // Show loading state
-                btnText.innerHTML = '<div class="spinner"></div>Submitting...';
-                submitBtn.disabled = true;
-                
-                // Clear previous status
-                statusElement.textContent = '';
-                statusElement.className = 'form-status';
-                
-                // Prepare form data using your method
-                const formData = new FormData(form);
-                const data = Object.fromEntries(formData.entries());
-                
-                // Add additional fields for enrollment form
-                if (formType === 'Enrollment') {
-                    data.course = courseName;
-                    data.price = coursePrice;
+                if (currentScroll > 100) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
                 }
                 
-                // Add timestamp and form type
-                data.timestamp = new Date().toLocaleString();
-                data.formType = formType;
+                lastScroll = currentScroll;
+            });
 
-                // Submit using your Google Apps Script method
-                fetch(scriptURL, {
-                    method: "POST",
-                    body: JSON.stringify(data),
-                })
-                .then((res) => res.text())
-                .then(() => {
-                    statusElement.textContent = formType === 'Enrollment' 
-                        ? '✅ Thank you for your enrollment! We will contact you shortly.' 
-                        : '✅ Thank you for your message! We will get back to you soon.';
-                    statusElement.className = 'form-status success';
-                    form.reset();
+            // Tab Functionality
+            const tabBtns = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    tabBtns.forEach(b => b.classList.remove('active'));
+                    tabContents.forEach(c => c.classList.remove('active'));
                     
-                    setTimeout(function() {
-                        if (formType === 'Enrollment') {
-                            enrollmentModal.classList.remove('active');
-                            document.body.style.overflow = '';
-                        }
-                        statusElement.className = 'form-status';
-                        statusElement.textContent = '';
-                    }, formType === 'Enrollment' ? 3000 : 5000);
-                })
-                .catch((err) => {
-                    console.error('Error:', err);
-                    statusElement.textContent = '❌ There was an error submitting the form. Please try again or contact us directly.';
-                    statusElement.className = 'form-status error';
-                })
-                .finally(() => {
-                    // Reset button state
-                    btnText.textContent = originalText;
-                    submitBtn.disabled = false;
+                    btn.classList.add('active');
+                    
+                    const tabId = btn.getAttribute('data-tab') + '-tab';
+                    document.getElementById(tabId).classList.add('active');
                 });
-            };
-        }
+            });
 
-        // Enrollment Form Submission
-        enrollmentForm.addEventListener('submit', handleFormSubmission(
-            enrollmentForm, 
-            enrollmentStatus, 
-            'Enrollment', 
-            courseNameElement.textContent, 
-            coursePriceElement.textContent
-        ));
+            // Enrollment Modal
+            const enrollmentModal = document.getElementById('enrollmentModal');
+            const closeModalBtn = document.getElementById('closeModal');
+            const courseNameElement = document.getElementById('courseName');
+            const coursePriceElement = document.getElementById('coursePrice');
+            const enrollmentForm = document.getElementById('enrollmentForm');
+            const enrollmentStatus = document.getElementById('enrollmentStatus');
 
-        // Contact Form Submission
-        const contactForm = document.getElementById('contactForm');
-        const contactStatus = document.getElementById('contactStatus');
-        
-        contactForm.addEventListener('submit', handleFormSubmission(
-            contactForm, 
-            contactStatus, 
-            'Contact'
-        ));
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    const headerHeight = document.querySelector('header').offsetHeight;
-                    const targetPosition = targetElement.offsetTop - headerHeight;
+            // Open modal when enroll button is clicked
+            document.querySelectorAll('.enroll-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    currentCourseName = this.getAttribute('data-course');
+                    currentCoursePrice = this.getAttribute('data-price');
                     
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
-                }
+                    courseNameElement.textContent = currentCourseName;
+                    coursePriceElement.textContent = currentCoursePrice;
+                    
+                    enrollmentModal.classList.add('active');
+                    document.body.style.overflow = 'hidden';
+                });
             });
-        });
 
-        // Animate elements on scroll
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver(function(entries) {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        // Observe course cards and other elements
-        document.querySelectorAll('.course-card, .stat-item, .instructor-card').forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
-            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-            observer.observe(el);
-        });
-
-        // Add keyboard navigation support for modal
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && enrollmentModal.classList.contains('active')) {
+            // Close modal
+            closeModalBtn.addEventListener('click', function() {
                 enrollmentModal.classList.remove('active');
                 document.body.style.overflow = '';
-            }
-        });
+            });
 
-        // Initialize form status elements
-        window.addEventListener('DOMContentLoaded', function() {
-            enrollmentStatus.textContent = '';
-            enrollmentStatus.className = 'form-status';
-            contactStatus.textContent = '';
-            contactStatus.className = 'form-status';
-        });
-    </script>
-</body>
+            // Close modal when clicking outside
+            enrollmentModal.addEventListener('click', function(event) {
+                if (event.target === enrollmentModal) {
+                    enrollmentModal.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // Form submission handler using your method
+            function handleFormSubmission(form, statusElement, formType) {
+                return function(e) {
+                    e.preventDefault();
+                    
+                    const submitBtn = form.querySelector('button[type="submit"]');
+                    const btnText = submitBtn.querySelector('.btn-text');
+                    const originalText = btnText.textContent;
+                    
+                    // Show loading state
+                    btnText.innerHTML = '<div class="spinner"></div>Submitting...';
+                    submitBtn.disabled = true;
+                    
+                    // Clear previous status
+                    statusElement.textContent = '';
+                    statusElement.className = 'form-status';
+                    
+                    // Prepare form data using your method
+                    const formData = new FormData(form);
+                    const data = Object.fromEntries(formData.entries());
+                    
+                    // Add course and price for enrollment form
+                    if (formType === 'Enrollment') {
+                        data.course = currentCourseName;
+                        data.price = currentCoursePrice;
+                    }
+                    
+                    // Add timestamp and form type
+                    data.timestamp = new Date().toLocaleString();
+                    data.formType = formType;
+
+                    // Submit using your Google Apps Script method
+                    fetch(scriptURL, {
+                        method: "POST",
+                        body: JSON.stringify(data),
+                    })
+                    .then((res) => res.text())
+                    .then(() => {
+                        statusElement.textContent = formType === 'Enrollment' 
+                            ? '✅ Thank you for your enrollment! We will contact you shortly.' 
+                            : '✅ Thank you for your message! We will get back to you soon.';
+                        statusElement.className = 'form-status success';
+                        form.reset();
+                        
+                        setTimeout(function() {
+                            if (formType === 'Enrollment') {
+                                enrollmentModal.classList.remove('active');
+                                document.body.style.overflow = '';
+                            }
+                            statusElement.className = 'form-status';
+                            statusElement.textContent = '';
+                        }, formType === 'Enrollment' ? 3000 : 5000);
+                    })
+                    .catch((err) => {
+                        console.error('Error:', err);
+                        statusElement.textContent = '❌ There was an error submitting the form. Please try again or contact us directly.';
+                        statusElement.className = 'form-status error';
+                    })
+                    .finally(() => {
+                        // Reset button state
+                        btnText.textContent = originalText;
+                        submitBtn.disabled = false;
+                    });
+                };
+            }
+
+            // Enrollment Form Submission
+            enrollmentForm.addEventListener('submit', handleFormSubmission(
+                enrollmentForm, 
+                enrollmentStatus, 
+                'Enrollment'
+            ));
+
+            // Contact Form Submission
+            const contactForm = document.getElementById('contactForm');
+            const contactStatus = document.getElementById('contactStatus');
+            
+            contactForm.addEventListener('submit', handleFormSubmission(
+                contactForm, 
+                contactStatus, 
+                'Contact'
+            ));
+
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        const headerHeight = document.querySelector('header').offsetHeight;
+                        const targetPosition = targetElement.offsetTop - headerHeight;
+                        
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Animate elements on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe course cards and other elements
+            document.querySelectorAll('.course-card, .stat-item, .instructor-card').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+
+            // Add keyboard navigation support for modal
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && enrollmentModal.classList.contains('active')) {
+                    enrollmentModal.classList.remove('active');
+                    document.body.style.overflow = '';
+                }
+            });
+
+            // Initialize form status elements
+            window.addEventListener('DOMContentLoaded', function() {
+                enrollmentStatus.textContent = '';
+                enrollmentStatus.className = 'form-status';
+                contactStatus.textContent = '';
+                contactStatus.className = 'form-status';
+            });
+        </script>
+    </body>
 </html>
